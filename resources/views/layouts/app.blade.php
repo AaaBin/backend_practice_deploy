@@ -19,7 +19,7 @@
 
     {!! ReCaptcha::htmlScriptTagJsApi() !!}
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     {{-- 給css用的區塊 --}}
     @yield('css')
 </head>
@@ -148,7 +148,7 @@
 
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('/js/app.js') }}"></script>
     {{-- 給js用的區塊 --}}
     @yield('js')
 </body>
