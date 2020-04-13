@@ -39,7 +39,7 @@
                             <div class="mbr-gallery-item mbr-gallery-item--p2 " data-video-url="false"
                                 data-tags="{{$item->category}}">
                                 <a href="/product_detail/{{$item->id}}" data-slide-to="{{$key}}" data-toggle="modal" class="bg-secondary rounded d-flex flex-column align-items-center shadow-lg">
-                                    <img class="p-1" src="/storage/{{$item->url}}" alt="" title="">
+                                    <img class="p-1" src="storage/{{$item->url}}" alt="" title="">
                                     <span  class="p-1 bg-transparent text-center">{{$item->name}}</span>
                                     <span  class="bg-transparent text-center">{{$item->price}}$</span>
                                 </a>
